@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MidPartComponent } from './mid-part/mid-part.component';
+import { MadhavComponentComponent } from './madhav-component/madhav-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    MidPartComponent
+    MidPartComponent,
+    MadhavComponentComponent
   ],
   imports: [
     BrowserModule,
