@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MidPartComponent } from './mid-part/mid-part.component';
 import { MadhavComponentComponent } from './madhav-component/madhav-component.component';
+import { MayankComponentComponent } from './mayank-component/mayank-component.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MadhavComponentComponent } from './madhav-component/madhav-component.co
     HeaderComponent,
     FooterComponent,
     MidPartComponent,
-    MadhavComponentComponent
+    MadhavComponentComponent,
+    MayankComponentComponent
   ],
   imports: [
     BrowserModule,
